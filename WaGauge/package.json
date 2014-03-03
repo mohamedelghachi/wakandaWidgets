@@ -1,0 +1,28 @@
+{
+    "name": "WaGauge",
+    "studioName": "WaGauge",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/waGauge.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+		{"id": "WaGauge/js/raphael.2.1.0.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaGauge/js/justgage.1.0.1.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaGauge/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaGauge/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaGauge/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
